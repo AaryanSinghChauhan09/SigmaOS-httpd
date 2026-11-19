@@ -1,11 +1,15 @@
 [package]
-name = "sigmaos_httpd"
+name = "SigmaOS-httpd"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS httpd HTTP server model: requests, responses, routes, middleware"
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_httpd component"
 
 [lib]
 name = "sigmaos_httpd"
 path = "src/lib.rs"
 
 [dependencies]
+thiserror = "1"
+
+[dev-dependencies]
